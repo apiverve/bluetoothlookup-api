@@ -1,0 +1,73 @@
+openapi: 3.0.4
+info:
+  title: Bluetooth Company Lookup
+  description: >-
+    Bluetooth Company Lookup allows you to identify Bluetooth device
+    manufacturers by their Bluetooth SIG assigned company identifier. This helps
+    identify the manufacturer of Bluetooth devices, beacons, and accessories.
+  termsOfService: https://apiverve.com/terms/
+  contact:
+    name: APIVerve Support
+    email: hello@apiverve.com
+    url: https://apiverve.com/contact
+  version: 1.0.0
+externalDocs:
+  description: Learn more about APIVerve
+  url: https://docs.apiverve.com?utm_source=openapi
+servers:
+  - url: https://api.apiverve.com/
+paths:
+  /v1/bluetoothlookup:
+    get:
+      summary: Lookup Bluetooth Company
+      description: Lookup Bluetooth company/manufacturer by company ID
+      operationId: bluetoothlookup
+      parameters:
+        - name: companyid
+          in: query
+          schema:
+            type: string
+          required: true
+          description: >-
+            The Bluetooth SIG company identifier (decimal or hex with 0x
+            prefix). For example, 76 or 0x4C for Apple.
+          example: '76'
+      responses:
+        '200':
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    description: status
+                  error:
+                    type: string
+                    description: error
+                  data:
+                    type: object
+                    description: data
+              example:
+                status: ok
+                error: null
+                data:
+                  companyId: 76
+                  companyIdHex: '0x004C'
+                  found: true
+                  company: Apple, Inc.
+        '401':
+          description: Your request was not authorized, or your API Key was invalid
+        '404':
+          description: Requested resource was not found
+        '500':
+          description: A server error has occurred, try again later
+components:
+  securitySchemes:
+    api_key:
+      type: apiKey
+      name: x-api-key
+      in: header
+security:
+  - api_key: []
