@@ -219,8 +219,9 @@ from apiverve_bluetoothcompanylookup.apiClient import BluetoothlookupAPIClient
 
 api = BluetoothlookupAPIClient("[YOUR_API_KEY]")
 
+query = { "companyid": "76" }
+
 try:
-    query = { "companyid": "76" }
     result = api.execute(query)
     print(result)
 finally:
