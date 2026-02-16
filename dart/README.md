@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_bluetoothlookup: ^1.1.13
+  apiverve_bluetoothlookup: ^1.1.14
 ```
 
 Then run:
