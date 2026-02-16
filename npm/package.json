@@ -1,6 +1,6 @@
 {
   "name": "@apiverve/bluetoothlookup",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "Bluetooth Company Lookup allows you to identify Bluetooth device manufacturers by their Bluetooth SIG assigned company identifier. This helps identify the manufacturer of Bluetooth devices, beacons, and accessories.",
   "main": "index.js",
   "types": "index.d.ts",
