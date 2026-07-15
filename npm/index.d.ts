@@ -4,19 +4,31 @@ declare module '@apiverve/bluetoothlookup' {
     secure?: boolean;
   }
 
+  /**
+   * Describes fields the current plan does not unlock. Locked fields arrive as null
+   * in `data`; `locked_fields` names them, using dot paths for nested fields.
+   * Absent when the plan unlocks everything.
+   */
+  export interface PremiumInfo {
+    message: string;
+    upgrade_url: string;
+    locked_fields: string[];
+  }
+
   export interface bluetoothlookupResponse {
     status: string;
     error: string | null;
     data: BluetoothCompanyLookupData;
     code?: number;
+    premium?: PremiumInfo;
   }
 
 
   interface BluetoothCompanyLookupData {
-      companyID:    number;
-      companyIDHex: string;
-      found:        boolean;
-      company:      string;
+      companyID:    number | null;
+      companyIDHex: null | string;
+      found:        boolean | null;
+      company:      null | string;
   }
 
   export default class bluetoothlookupWrapper {
