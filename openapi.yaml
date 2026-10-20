@@ -19,7 +19,7 @@ servers:
 paths:
   /v1/bluetoothlookup:
     get:
-      summary: Lookup Bluetooth Company
+      summary: Bluetooth Company Lookup
       description: Lookup Bluetooth company/manufacturer by company ID
       operationId: bluetoothlookup
       parameters:
