@@ -1,7 +1,7 @@
 {
     "name": "apiverve/bluetoothlookup",
     "description": "Bluetooth Company Lookup allows you to identify Bluetooth device manufacturers by their Bluetooth SIG assigned company identifier. This helps identify the manufacturer of Bluetooth devices, beacons, and accessories.",
-    "version": "1.2.0",
+    "version": "1.2.2",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -21,7 +21,7 @@
         "bluetooth manufacturer",
         "bluetooth device identification"
     ],
-    "homepage": "https://apiverve.com/marketplace/bluetoothlookup?utm_source=php&utm_medium=homepage",
+    "homepage": "https://apiverve.com/marketplace/bluetoothlookup?utm_source=php&utm_medium=referral&utm_content=homepage",
     "support": {
         "email": "hello@apiverve.com",
         "docs": "https://docs.apiverve.com/ref/bluetoothlookup",
