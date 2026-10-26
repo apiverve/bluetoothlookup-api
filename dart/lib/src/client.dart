@@ -46,7 +46,7 @@ final _formatPatterns = {
 
 /// Bluetooth Company Lookup API client.
 ///
-/// For more information, visit: https://apiverve.com/marketplace/bluetoothlookup?utm_source=dart&utm_medium=readme
+/// For more information, visit: https://apiverve.com/marketplace/bluetoothlookup?utm_source=dart&utm_medium=referral&utm_content=readme
 ///
 /// Parameters:
 /// * [companyid] (required) - The Bluetooth SIG company identifier (decimal or hex with 0x prefix). For example, 76 or 0x4C for Apple.

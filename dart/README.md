@@ -5,7 +5,7 @@ Bluetooth Company Lookup allows you to identify Bluetooth device manufacturers b
 [![pub package](https://img.shields.io/pub/v/apiverve_bluetoothlookup.svg)](https://pub.dev/packages/apiverve_bluetoothlookup)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This is the Dart/Flutter client for the [Bluetooth Company Lookup API](https://apiverve.com/marketplace/bluetoothlookup?utm_source=dart&utm_medium=readme).
+This is the Dart/Flutter client for the [Bluetooth Company Lookup API](https://apiverve.com/marketplace/bluetoothlookup?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## Installation
 
@@ -13,7 +13,7 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  apiverve_bluetoothlookup: ^1.1.14
+  apiverve_bluetoothlookup: ^1.2.3
 ```
 
 Then run:
@@ -62,12 +62,12 @@ void main() async {
 
 ## API Reference
 
-- **API Home:** [Bluetooth Company Lookup API](https://apiverve.com/marketplace/bluetoothlookup?utm_source=dart&utm_medium=readme)
-- **Documentation:** [docs.apiverve.com/ref/bluetoothlookup](https://docs.apiverve.com/ref/bluetoothlookup?utm_source=dart&utm_medium=readme)
+- **API Home:** [Bluetooth Company Lookup API](https://apiverve.com/marketplace/bluetoothlookup?utm_source=dart&utm_medium=referral&utm_content=readme)
+- **Documentation:** [docs.apiverve.com/ref/bluetoothlookup](https://docs.apiverve.com/ref/bluetoothlookup?utm_source=dart&utm_medium=referral&utm_content=readme)
 
 ## Authentication
 
-All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=readme).
+All requests require an API key. Get yours at [apiverve.com](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme).
 
 ## License
 
@@ -75,4 +75,4 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=readme)
+Built with Dart for [APIVerve](https://apiverve.com?utm_source=dart&utm_medium=referral&utm_content=readme)
