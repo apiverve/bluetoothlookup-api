@@ -4,6 +4,6 @@ require_relative "apiverve_bluetoothlookup/client"
 
 module APIVerve
   module Bluetoothlookup
-    VERSION = "1.2.2"
+    VERSION = "1.2.3"
   end
 end
