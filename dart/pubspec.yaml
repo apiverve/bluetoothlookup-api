@@ -1,6 +1,6 @@
 name: apiverve_bluetoothlookup
 description: "Bluetooth Company Lookup allows you to identify Bluetooth device manufacturers by their Bluetooth SIG assigned company identifier. This helps identify the manufacturer of Bluetooth devices, beacons, and accessories."
-version: 1.2.3
+version: 1.2.4
 homepage: https://apiverve.com/marketplace/bluetoothlookup?utm_source=dart&utm_medium=referral&utm_content=homepage
 repository: https://github.com/apiverve/bluetoothlookup-api/tree/main/dart
 
